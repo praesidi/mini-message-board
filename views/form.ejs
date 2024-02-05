@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+		<title><%= title %></title>
+		<link rel="stylesheet" href="/stylesheets/style.css" />
+	</head>
+	<body>
+		<a href="/">
+			<button>Get back</button>
+		</a>
+		<h1>Add new message</h1>
+		<form method="POST" action="/new">
+			<label>
+				<input type="text" name="name" id="" placeholder="Add name..." />
+			</label>
+			<label>
+				<input
+					type="text"
+					name="text"
+					id=""
+					placeholder="Type your message..."
+				/>
+			</label>
+			<button type="submit">Send message</button>
+		</form>
+	</body>
+</html>
